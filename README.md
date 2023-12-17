@@ -29,6 +29,8 @@ After installation, you can:
 - **Join a Quiz**: Browse available quizzes and join one to start participating in real time.
 - **View Leaderboard**: Check the leaderboard to see your ranking and scores.
 
+## Testing on cyoress
+npm install --save-dev cypress
 
 
 

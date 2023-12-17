@@ -753,6 +753,14 @@
     "@types/jsonwebtoken" "9.0.5"
     "jsonwebtoken" "9.0.2"
 
+"@nestjs/microservices@^10.0.0", "@nestjs/microservices@^10.2.10":
+  "integrity" "sha512-vebXc4lF67grtLr3UXc+rPErH5aCzCez1Y2Oec4k2K4ObhjftNug7L2O9W3XiprHlwPhPXc51VQ9nhKn7IFAxw=="
+  "resolved" "https://registry.npmjs.org/@nestjs/microservices/-/microservices-10.2.10.tgz"
+  "version" "10.2.10"
+  dependencies:
+    "iterare" "1.2.1"
+    "tslib" "2.6.2"
+
 "@nestjs/platform-express@^10.0.0":
   "integrity" "sha512-U4KDgtMjH8TqEvt0RzC/POP8ABvL9bYoCScvlGtFSKgVGaMLBKkZ4+jHtbQx6qItYSlBBRUuz/dveMZCObfrkQ=="
   "resolved" "https://registry.npmjs.org/@nestjs/platform-express/-/platform-express-10.2.10.tgz"
@@ -4115,6 +4123,13 @@
     "object-assign" "^4.0.1"
     "thenify-all" "^1.0.0"
 
+"nats@*", "nats@^2.18.0":
+  "integrity" "sha512-zZF004ejzf67Za0Tva+xphxoxBMNc5IMLqbZ7Ho0j9TMuisjpo+qCd1EktXRCLNxmrZ8O6Tbm1dBsZYNF6yR1A=="
+  "resolved" "https://registry.npmjs.org/nats/-/nats-2.18.0.tgz"
+  "version" "2.18.0"
+  dependencies:
+    "nkeys.js" "1.0.5"
+
 "natural-compare@^1.4.0":
   "integrity" "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw=="
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
@@ -4129,6 +4144,13 @@
   "integrity" "sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw=="
   "resolved" "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
+
+"nkeys.js@1.0.5":
+  "integrity" "sha512-u25YnRPHiGVsNzwyHnn+PT90sgAhnS8jUJ1nxmkHMFYCJ6+Ic0lv291w7uhRBpJVJ3PH2GWbYqA151lGCRrB5g=="
+  "resolved" "https://registry.npmjs.org/nkeys.js/-/nkeys.js-1.0.5.tgz"
+  "version" "1.0.5"
+  dependencies:
+    "tweetnacl" "1.0.3"
 
 "node-abort-controller@^3.0.1":
   "integrity" "sha512-AGK2yQKIjRuqnc6VkX2Xj5d+QW8xZ87pa1UK6yA6ouUyuxfHuMP6umE5QK7UmTeOAymo+Zx1Fxiuw9rVx8taHQ=="
@@ -5375,6 +5397,11 @@
   "integrity" "sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q=="
   "resolved" "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
   "version" "2.6.2"
+
+"tweetnacl@1.0.3":
+  "integrity" "sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw=="
+  "resolved" "https://registry.npmjs.org/tweetnacl/-/tweetnacl-1.0.3.tgz"
+  "version" "1.0.3"
 
 "type-check@^0.4.0", "type-check@~0.4.0":
   "integrity" "sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew=="
